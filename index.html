@@ -7,6 +7,10 @@
 	<meta name="keywords" content="Dalian University,大连大学，dlu">
 	<meta name="author" content="nsstnan,enterdawn">
 	<style type="text/css">
+		*{
+			padding: 0;
+			margin: 0;
+		}
 		body {
 			background-color: lightblue
 		}
@@ -41,11 +45,58 @@
 			border:20px;
 			margin:20px;	
 		}
-        #content {
+        .content {
             margin-right: 300px;
         }
+		.Login{
+			width:300px;
+			height:350px ;
+			position: absolute;
+			left:1000px;
+			top: 250px;
+			background: white;
+		}
+		.click_login{
+			width: 200px;
+			height: 50px;
+			left:50px;
+			top:150px;
+			position:relative;
+			text-align: center;
+			line-height: 50px;
+		}
+		.username{
+			width:100px;
+			height:40px;
+			left:50px;
+			top:1px;
+			position: relative;
+		}
+		.password{
+			width:100px;
+			height: 40px;
+			left:50px;
+			top:41px;
+			position: relative;
+		}
+		.login_{
+			widows: 100px;
+			height: 40px;
+			left:80px;
+			top:81px;
+			position: relative;
+		}
+		.login{
+			position: relative;
+			left:5px;
+			top:4px;
+			width: 90px;
+			height: 80%;
+			text-align: center;
+			line-height: 80%;
+		}
 	</style>
-	<title>大连大学教务管理系统t</title>
+	<title>大连大学教务管理系统</title>
 </head>
 <body>
 	<div id="head">
@@ -74,6 +125,26 @@
 		<p>Authors:nsstnan,<a href="https://enterdawn.top">enterdawn</a></p>
 
 	</div>
+	<!--edit by nsstnan 2020/7/9-->
+	<div class="Login">
+		<div class="click_login">
+			<a href="#click_to_login">click to sign in</a>
+		</div>
+		<div class="username">
+			<h3 class="username_">Username</h3>
+			<input type="text" name="username" value="" placeholder="place input username">
+		</div>
+		<br/><br/>
+		<div class="password">
+			<h3 class="password_">Password</h3>
+			<input type="password" name="password" value="" placeholder="please input password"><br/>
+		</div>
+		<br/><br/>
+		<div class="login_">
+			<input type="button" class="login" value="sign in"/>
+		</div>
+	</div>
+	<!--edit by nsstnan  asd 2020/7/9-->
 </body>
 
 </html>
