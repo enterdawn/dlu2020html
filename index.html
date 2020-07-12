@@ -6,6 +6,15 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
 	<meta name="keywords" content="Dalian University,大连大学，dlu">
 	<meta name="author" content="nsstnan,enterdawn">
+	<!--导航栏css-->
+	<link rel="stylesheet" type="text/css" href="/head.css" />
+	<!--主要内容css-->
+	<link rel="stylesheet" type="text/css" href="/content.css" />
+	<!--登录内容css-->
+	<link rel="stylesheet" type="text/css" href="/login.css" />
+	<!--底部内容css-->
+	<link rel="stylesheet" type="text/css" href="/endl.css" />
+	<!--全局css-->
 	<style type="text/css">
 		*{
 			padding: 0;
@@ -14,118 +23,32 @@
 		body {
 			background-color: lightblue;
 		}
-
-		p {
-			color: black;
-		}
 		li{
-			list-style-type: none;
-			display:inline;
-		}
-		#head{
-			background-color:lightblue;
-			width: 100%;
-			border:25px;
-			margin:25px;
-		}
-		#head1{
-			width: 90%;
-			height: 80%;
-			border:20px;
-			margin:20px;
-		}
-        #sidebar {
-            float: right;
-            width: 300px;
-			border:25px;
-			margin:25px;
-        }
-		#side1{
-			width: 70%;
-			border:20px;
-			margin:20px;	
-		}
-        .content {
-            margin-right: 300px;
-        }
-		.Login{
-			width:300px;
-			height:350px ;
-			position: absolute;
-			left:1000px;
-			top: 250px;
-			background: white;
-		}
-		.click_login{
-			width: 200px;
-			height: 50px;
-			left:50px;
-			top:150px;
-			position:relative;
-			text-align: center;
-			line-height: 50px;
-		}
-		.username{
-			width:100px;
-			height:40px;
-			left:50px;
-			top:1px;
-			position: relative;
-		}
-		.password{
-			width:100px;
-			height: 40px;
-			left:50px;
-			top:41px;
-			position: relative;
-		}
-		.login_{
-			widows: 100px;
-			height: 40px;
-			left:80px;
-			top:81px;
-			position: relative;
-		}
-		.login{
-			position: relative;
-			left:5px;
-			top:4px;
-			width: 90px;
-			height: 80%;
-			text-align: center;
-			line-height: 80%;
+    		list-style-type: none;
+    		display:inline;
 		}
 	</style>
 	<title>大连大学教务管理系统</title>
 </head>
 <body>
+	<!--顶部导航开始-->
 	<div id="head">
 		<div id="head1">
 			<li><img src="https://s1.ax1x.com/2020/07/12/U39PEj.png" alt="dlu_image" width="290" height="82"></li>
 			<li style="font-size:300%;">教务管理系统 </li>
 		</div>
 	</div>
-
-	<div id="sidebar" style="background-color:skyblue;height:auto;width:15%;float:left;">
-		<div id="side1"style="background-color:blue;display=block;left=200px;top=20%;width=10%">
-			<h5>菜单1</h5>
-			<a href="enterdawn.top"> a test</a><br>
-			<a href="enterdawn.top"> a test</a><br>
-			<a href="enterdawn.top"> a test</a><br>
-			<a href="enterdawn.top"> a test</a><br>
-			<a href="enterdawn.top"> a test</a><br>
-		</div>
-	</div>
+   <!--顶部导航结束-->
+	
 	<div id="content"style="background-color:skyblue;border:20%;padding: 25px;margin: 25px;">
 		内容在这里
 	</div>
-	
-
+	<!--底部开始-->
 	<div class="endl" style="background-color:skyblue;clear:both;text-align:center;">
 		<p>Authors:nsstnan,<a href="https://enterdawn.top">enterdawn</a></p>
-
 	</div>
-	<!--edit by nsstnan 2020/7/9-->
+	<!--底部结束-->
+	<!--登录界面开始-->
 	<div class="Login">
 		<div class="click_login">
 			<a href="#click_to_login">click to sign in</a>
@@ -144,7 +67,7 @@
 			<input type="button" class="login" value="sign in"/>
 		</div>
 	</div>
-	<!--edit by nsstnan  asd 2020/7/9-->
+	<!--登录界面结束-->
 </body>
 
 </html>

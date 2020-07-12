@@ -1,0 +1,16 @@
+@charset "utf-8";
+p {
+    color: black;
+}
+#head{
+    background-color:lightblue;
+    width: 100%;
+    border:25px;
+    margin:25px;
+}
+#head1{
+    width: 90%;
+    height: 80%;
+    border:20px;
+    margin:20px;
+}
