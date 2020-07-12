@@ -7,13 +7,13 @@
 	<meta name="keywords" content="Dalian University,大连大学，dlu">
 	<meta name="author" content="nsstnan,enterdawn">
 	<!--导航栏css-->
-	<link rel="stylesheet" type="text/css" href="/head.css" />
+	<link rel="stylesheet" type="text/css" href="head.css" />
 	<!--主要内容css-->
-	<link rel="stylesheet" type="text/css" href="/content.css" />
+	<link rel="stylesheet" type="text/css" href="content.css" />
 	<!--登录内容css-->
-	<link rel="stylesheet" type="text/css" href="/login.css" />
+	<link rel="stylesheet" type="text/css" href="login.css" />
 	<!--底部内容css-->
-	<link rel="stylesheet" type="text/css" href="/endl.css" />
+	<link rel="stylesheet" type="text/css" href="endl.css" />
 	<!--全局css-->
 	<style type="text/css">
 		*{
@@ -21,53 +21,116 @@
 			margin: 0;
 		}
 		body {
-			background-color: lightblue;
-		}
-		li{
-    		list-style-type: none;
-    		display:inline;
-		}
+			background-color: #333;
+			color: white;
+		}	
 	</style>
 	<title>大连大学教务管理系统</title>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
 	<!--顶部导航开始-->
-	<div id="head">
-		<div id="head1">
-			<li><img src="https://s1.ax1x.com/2020/07/12/U39PEj.png" alt="dlu_image" width="290" height="82"></li>
-			<li style="font-size:300%;">教务管理系统 </li>
+	<div class="headtop" id="headtop">
+		<ul>
+			<li><a class="active" href="http://www.dlu.edu.cn">连大首页</a></li> 
+			<li><a href="http://jwc1.dlu.edu.cn">教务处首页</a></li>
+			<li><a href="beautiful.html">学校风光</a></li>
+			<li><a href="http://www.dlu.edu.cn/xxgk/ldjj.htm">连大简介</a></li>
+			<li><a href="http://zsw.dlu.edu.cn/">大连大学招生网</a></li>
+			<li style="float:right">
+				<div class="dropdown">
+					<span>登录</span>					 
+				<!--登录开始-->
+					<div class="Login">
+						<div class="click_login">
+						<a href="#click_to_login">click to sign in</a>
+						</div>
+						<div class="username">
+						<h3 class="username_">Username</h3>
+						<input type="text" name="username" value="" placeholder="place input username">
+						</div>
+						<br/><br/>
+						<div class="password">
+						<h3 class="password_">Password</h3>
+						<input type="password" name="password" value="" placeholder="please input password"><br/>
+						</div>
+						<br/><br/>
+						<div class="login_">
+						<input type="button" class="login" value="sign in"/>
+						</div>
+					</div>
+				<!--登录结束-->
+				</div>
+			</li>
+		 </ul> 
 		</div>
-	</div>
    <!--顶部导航结束-->
 	
-	<div id="content"style="background-color:skyblue;border:20%;padding: 25px;margin: 25px;">
-		内容在这里
+	<div id="content"style="background-color:#444;border:20%;padding: 25px;margin: 25px;">
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
+		<p>内容在这里</p>
 	</div>
 	<!--底部开始-->
-	<div class="endl" style="background-color:skyblue;clear:both;text-align:center;">
-		<p>Authors:nsstnan,<a href="https://enterdawn.top">enterdawn</a></p>
+	<div class="endl" style="background-color:#333;clear:both;text-align:center;">
+		<p>Authors:nsstnan,<a href="https://enterdawn.top" style="color: rgb(160, 160, 52);text-decoration:none;">enterdawn</a></p>
+		<p>地址：辽宁省大连市开发区学府大街10号</p>
 	</div>
 	<!--底部结束-->
-	<!--登录界面开始-->
-	<div class="Login">
-		<div class="click_login">
-			<a href="#click_to_login">click to sign in</a>
-		</div>
-		<div class="username">
-			<h3 class="username_">Username</h3>
-			<input type="text" name="username" value="" placeholder="place input username">
-		</div>
-		<br/><br/>
-		<div class="password">
-			<h3 class="password_">Password</h3>
-			<input type="password" name="password" value="" placeholder="please input password"><br/>
-		</div>
-		<br/><br/>
-		<div class="login_">
-			<input type="button" class="login" value="sign in"/>
-		</div>
-	</div>
-	<!--登录界面结束-->
-</body>
+	
+
+<!--顶部导航栏随页面滚动js-->
+<script>
+    $(function(){
+        var banOffTop=$(".headtop").offset().top;
+        var scTop=0;
+        $(document).scroll(function(){
+            scTop=$(this).scrollTop();
+            if(scTop>=banOffTop){
+                $(".headtop").addClass("fixDiv");
+            }else{
+                $(".headtop").removeClass("fixDiv");
+            }
+
+        })
+    })
+</script>	
 
 </html>

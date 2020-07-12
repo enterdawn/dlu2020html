@@ -1,16 +1,36 @@
 @charset "utf-8";
-p {
-    color: black;
-}
-#head{
-    background-color:lightblue;
+.headtop{
     width: 100%;
-    border:25px;
-    margin:25px;
 }
-#head1{
-    width: 90%;
-    height: 80%;
-    border:20px;
-    margin:20px;
+.headtop ul {
+    list-style-type: none;
+       margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+
+.headtop li {
+float: left;
+display: block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    
+}	
+
+.headtop li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*鼠标移动到选项上修改背景颜色 */
+    .headtop li:hover {
+    background-color: #111;
+}
+
+.fixDiv{
+    position:fixed;
+     top:0;
+     left:0;
+ }
