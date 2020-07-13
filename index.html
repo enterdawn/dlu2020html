@@ -38,29 +38,26 @@
 			<li><a href="http://www.dlu.edu.cn/xxgk/ldjj.htm">连大简介</a></li>
 			<li><a href="http://zsw.dlu.edu.cn/">大连大学招生网</a></li>
 			<li style="float:right">
-				<div class="dropdown">
-					<span>登录</span>					 
+				
+					<span class="click">登录</span>					 
 				<!--登录开始-->
-					<div class="Login">
-						<div class="click_login">
-						<a href="#click_to_login">click to sign in</a>
+						<div class="Login">
+							<div class="username">
+							<h3 class="username_">Username</h3>
+							<input type="text" name="username" value="" placeholder="place input username">
+							</div>
+							<br/><br/>
+							<div class="password">
+							<h3 class="password_">Password</h3>
+							<input type="password" name="password" value="" placeholder="please input password"><br/>
+							</div>
+							<br/><br/>
+							<div class="login_">
+							<input type="button" class="login" value="sign in"/>
+							</div>
 						</div>
-						<div class="username">
-						<h3 class="username_">Username</h3>
-						<input type="text" name="username" value="" placeholder="place input username">
-						</div>
-						<br/><br/>
-						<div class="password">
-						<h3 class="password_">Password</h3>
-						<input type="password" name="password" value="" placeholder="please input password"><br/>
-						</div>
-						<br/><br/>
-						<div class="login_">
-						<input type="button" class="login" value="sign in"/>
-						</div>
-					</div>
 				<!--登录结束-->
-				</div>
+				
 			</li>
 		 </ul> 
 		</div>
@@ -133,4 +130,15 @@
     })
 </script>	
 
+<script>
+
+$(".click").click(function(){
+			if($(".Login").css("display")=="none"){
+				$(".Login").show();
+			}else{
+				$(".Login").hide();
+			}
+		});
+
+</script>
 </html>
