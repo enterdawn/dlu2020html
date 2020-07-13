@@ -4,9 +4,10 @@
     width:300px;
     height:350px ;
     position: absolute;
+    background: #3b3b3b;
+    color: white;
     left:1000px;
-    top: 250px;
-    background: white;
+    top: 50px;
     display:none;
 }
 .click_login{
