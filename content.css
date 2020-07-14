@@ -4,9 +4,11 @@
     background-color:#444;
     border:20%;
     padding: 25px;
-    margin: 25px;
-    top:20px;
-    z-index:-1;
+    top:25px;
+    z-index:1;
+    height: 500px;
+    width: 1165px;
+    margin:25px auto;
 }
 /*图片轮播*/
 #frame {
@@ -30,7 +32,7 @@
     animation: ma 20s ease-out infinite alternate;/**/
 }
 @keyframes ma {
-    0%,20% {    margin-left: 0px;    }
+    0%,20% {    margin-left: 0;    }
     25%,40% {    margin-left: -800px;    }
     45%,60% {    margin-left: -1600px;    }
     65%,80% {    margin-left: -2400px;    }
@@ -70,7 +72,7 @@
 
     position: relative;
     border:solid;
-    width: 330px;
+    width: 320px;
     bottom:500px;
     float:right;
 }
@@ -102,4 +104,19 @@
 }
 .notice ul li{
     list-style-type:none;
+    text-decoration:none;
+}
+.notice ul li a{
+    text-decoration:none;
+    color:white;
+}
+.notice ul li a:hover {
+    color: yellow;
+}
+.noticehead p a{
+    text-decoration:none;
+    color:white;
+}
+.noticehead p a:hover {
+    color: yellow;
 }

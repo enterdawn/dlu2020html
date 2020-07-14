@@ -1,0 +1,28 @@
+@charset "utf-8";
+.ne{
+    position: relative;
+    background-color:#444;
+    border:20%;
+    padding: 25px;
+    top:0px;
+    z-index:-1;
+    height: 400px;
+    width: 1165px;
+    margin:20px auto;
+    
+}
+.news{
+    position: absolute;
+    border:solid;
+    width:46.5%;
+    height: 85%;
+
+}
+.news-1{
+    position: absolute;
+    border:solid;
+    width:46.5%;
+    height: 85%;
+    right:25px;
+ 
+}
