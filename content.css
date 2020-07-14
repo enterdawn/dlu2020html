@@ -1,1 +1,10 @@
 @charset "utf-8";
+#content{
+    position: relative;;
+    background-color:#444;
+    border:20%;
+    padding: 25px;
+    margin: 25px;
+    top:20px;
+    z-index:-1;
+}
