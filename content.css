@@ -8,38 +8,38 @@
     top:20px;
     z-index:-1;
 }
-
-#frame {/*----------图片轮播相框容器----------*/
-    position: relative; /*--绝对定位，方便子元素的定位*/
-    width: 300px;
-    height: 200px;
-    overflow: hidden;/*--相框作用，只显示一个图片---*/
+/*图片轮播*/
+#frame {
+    position: relative; 
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
     border-radius:5px;
-    }
+ }
    
-    #photos img {
+#photos img {
     float: left;
-    width:300px;
-    height:200px;
-    }
-    #photos {/*---设置总的图片宽度--通过位移来达到轮播效果----*/
+    width:800px;
+    height:500px;
+}
+#photos {
     position: absolute;z-index:9px;
-    width: calc(300px * 5);/*---修改图片数量的话需要修改下面的动画参数*/
-    }
-    .play{
+    width: calc(800px * 5);
+}
+.play{
     animation: ma 20s ease-out infinite alternate;/**/
-    }
-    @keyframes ma {/*---每图片切换有两个阶段：位移切换和静置。中间的效果可以任意定制----*/
+}
+@keyframes ma {
     0%,20% {    margin-left: 0px;    }
-    25%,40% {    margin-left: -300px;    }
-    45%,60% {    margin-left: -600px;    }
-    65%,80% {    margin-left: -900px;    }
-    85%,100% {    margin-left: -1200px;    }
-    }
-    .num{
+    25%,40% {    margin-left: -800px;    }
+    45%,60% {    margin-left: -1600px;    }
+    65%,80% {    margin-left: -2400px;    }
+    85%,100% {    margin-left: -3200px;    }
+}
+.num{
     position:absolute;z-index:10;
     display:inline-block;
-    right:10px;top:165px;
+    right:10px;top:475px;
     border-radius:100%;
     background:#f00;
     width:25px;height:25px;
@@ -48,20 +48,58 @@
     color:#fff;
     text-align:center;
     opacity:0.8;
-    }
-    .num:hover{background:#00f;}
-    .num:hover,#photos:hover{animation-play-state:paused;}
-    .num:nth-child(2){margin-right:30px}
-    .num:nth-child(3){margin-right:60px}
-    .num:nth-child(4){margin-right:90px}
-    .num:nth-child(5){margin-right:120px}
-    #a1:hover ~ #photos{animation: ma1 .5s ease-out forwards;}
-    #a2:hover ~ #photos{animation: ma2 .5s ease-out forwards;}
-    #a3:hover ~ #photos{animation: ma3 .5s ease-out forwards;}
-    #a4:hover ~ #photos{animation: ma4 .5s ease-out forwards;}
-    #a5:hover ~ #photos {animation: ma5 .5s ease-out forwards;}
-    @keyframes ma1 {0%{margin-left:-1200px;}100%{margin-left:-0px;}    }
-    @keyframes ma2 {0%{margin-left:-1200px;}100%{margin-left:-300px;}    }
-    @keyframes ma3 {100%{margin-left:-600px;}    }
-    @keyframes ma4 {100%{margin-left:-900px;}    }
-    @keyframes ma5 {100%{margin-left:-1200px;}    }
+}
+.num:hover{background:#00f;}
+.num:hover,#photos:hover{animation-play-state:paused;}
+.num:nth-child(2){margin-right:30px}
+.num:nth-child(3){margin-right:60px}
+.num:nth-child(4){margin-right:90px}
+.num:nth-child(5){margin-right:120px}
+#a1:hover{animation: ma1 .5s ease-out forwards;}
+#a2:hover{animation: ma2 .5s ease-out forwards;}
+#a3:hover{animation: ma3 .5s ease-out forwards;}
+#a4:hover{animation: ma4 .5s ease-out forwards;}
+#a5:hover{animation: ma5 .5s ease-out forwards;}
+@keyframes ma1 {0%{margin-left:-3200px;}100%{margin-left:-0px;}    }
+@keyframes ma2 {0%{margin-left:-3200px;}100%{margin-left:-800px;}    }
+@keyframes ma3 {100%{margin-left:-1600px;}    }
+@keyframes ma4 {100%{margin-left:-2400px;}    }
+@keyframes ma5 {100%{margin-left:-3200px;}    }
+/*教务通知*/
+.notice{
+
+    position: relative;
+    border:solid;
+    width: 330px;
+    bottom:500px;
+    float:right;
+}
+.noticehead{
+    margin: 0;
+    padding: 0;
+    display: block;
+    background: #333;
+    padding: 8px 20px;
+    height: 25px;
+    
+}
+.noticehead h4{
+    float: left;
+    font-size: 20px;
+    display: block;
+}
+.noticehead p{
+    float:right;
+    display: block;
+    font-size: 15px;
+}
+.notice1{
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    display: block;
+    
+}
+.notice ul li{
+    list-style-type:none;
+}

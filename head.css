@@ -27,7 +27,7 @@ display: block;
 }
 
 /*鼠标移动到选项上修改背景颜色 */
-    .headtop li:hover {
+.headtop li:hover {
     background-color: #111;
 }
 
