@@ -16,7 +16,7 @@
     transition: all 2s;
 }
 #bg:hover{
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(1.3);
 }
 @keyframes gb{
     0%,100%{
@@ -24,7 +24,7 @@
     }
     50%{
         opacity: 0.5;
-        transform: scale(1.3);
+        transform: scale(1.5);
     }
 }
 li{
@@ -43,8 +43,9 @@ li{
 }
 ul{
     position: absolute;
-    left: 250px;
+    left: 400px;
     list-style: none;
+    z-index: 10;
 }
 .dh p{
     color: #e94fa2;
@@ -81,5 +82,10 @@ ul{
 #t1{
     color: rgb(243, 152, 73);
     font-size: 30px;
+}
+#b3{
+    width: 100%;
+    height: 1080px;
+    background: url(https://enterdawn.top/w1/i10.png) no-repeat;
 }
  
