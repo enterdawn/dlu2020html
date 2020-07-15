@@ -5,10 +5,10 @@
     border:20%;
     padding: 25px;
     top:0px;
-    z-index:-1;
     height: 400px;
     width: 1165px;
     margin:20px auto;
+    z-index: 1;
     
 }
 .news{
@@ -18,11 +18,74 @@
     height: 85%;
 
 }
+.newstop{
+    margin: 0;
+    padding: 0;
+    display: block;
+    background: #333;
+    padding: 8px 20px;
+    height: 25px;
+    z-index: -1;
+}
+.newstop h4{
+    float: left;
+    font-size: 20px;
+    display: block;
+    z-index: -1;
+}
+.news ul li{
+    list-style-type:none;
+    text-decoration:none;
+}
+.news ul li a{
+    text-decoration:none;
+    color:white;
+}
+.news ul li a:hover {
+    color: yellow;
+}
+.u1{
+    float:left;
+    left:5px;
+}
+.u2{
+    float:right;
+    right:5px;
+}
+.td{
+    padding: 25px;
+    line-height:30px;
+    letter-spacing:2px;
+    font-size: 20px;; 
+}
+
+
 .news-1{
     position: absolute;
     border:solid;
     width:46.5%;
     height: 85%;
     right:25px;
- 
+}
+.video video{
+    position: relative;
+    height: 365px;
+    width: 565px;
+    bottom:25px;
+    z-index:100;
+}
+.news1top{
+    margin: 0;
+    padding: 0;
+    display: block;
+    background: #333;
+    padding: 8px 20px;
+    height: 25px;
+    z-index: -1;
+}
+.news1top h4{
+    float: left;
+    font-size: 20px;
+    display: block;
+    z-index: -1;
 }
