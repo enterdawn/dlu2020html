@@ -2,43 +2,36 @@
 
 .Login{
     width:300px;
-    height:350px ;
+    height:250px ;
     position: absolute;
-    background: #3b3b3b;
+    background: #06326b;
     color: white;
     right:0px;
     top: 49px;
     display:none;
     z-index:3;
 }
-.click_login{
-    width: 200px;
-    height: 50px;
-    left:50px;
-    top:150px;
-    position:relative;
-    text-align: center;
-    line-height: 50px;
-}
 .username{
+    text-align: left;
     width:100px;
-    height:40px;
+    height:30px;
     left:50px;
     top:1px;
     position: relative;
 }
 .password{
+    text-align: left;
     width:100px;
-    height: 40px;
+    height: 30px;
     left:50px;
-    top:41px;
+    top:30px;
     position: relative;
 }
 .login_{
     widows: 100px;
-    height: 40px;
-    left:80px;
-    top:81px;
+    height: 30px;
+    left:0px;
+    top:50px;
     position: relative;
 }
 .login{
