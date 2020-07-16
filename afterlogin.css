@@ -3,14 +3,17 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background:rgb(220, 223, 223);
+}
 #biaoge{
     width: 100%;
     height: 300px;
     position: relative;
     top:150px;
-    background: red;
 }
 .biaoge ul{
+    left: 100px;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -22,9 +25,9 @@
     width: 100px;
     height: 120px;
     float: left;
-    margin-left: 90px;
+    margin-left: 140px;
     margin-right: 90px;
-    margin-top: 10px;
+    margin-top: 40px;
     list-style: none;
 }
 #biaoge a{
@@ -35,7 +38,7 @@
     text-align: center;
 }
 #biaoge span{
-    color: white;
+    color: black;
     width: 100%;
     height: 100%;
 }
@@ -47,6 +50,8 @@
     animation: t1 2s ease-in;
     background: white;
     transition: all 1s;
+    background:url(https://enterdawn.top/w1/信息维护.svg);
+    background-size: 100px 100px;
 }
 #tu1:hover{
     transform:rotate(360deg) scale(2) translateX(210px) translateY(70px);
@@ -74,6 +79,8 @@
     width: 100%;
     height: 100px;
     transition: all 1s;
+    background:url(https://enterdawn.top/w1/信息查询.svg);
+    background-size: 100px 100px;
 }
 #tu2:hover{
     transform: rotate(-360deg) scale(2) translateX(70px) translateY(70px);
@@ -88,6 +95,8 @@
     width: 100%;
     height: 100px;
     transition: all 1s;
+    background:url(https://enterdawn.top/w1/问卷调查.svg);
+    background-size: 100px 100px;
 }
 #tu3:hover{
     transform: rotateX(360deg) scale(2) translateX(-70px) translateY(70px);
@@ -102,6 +111,8 @@
     width: 100%;
     height: 100px;
     transition: all 1s;
+    background:url(https://enterdawn.top/w1/网上选课.svg);
+    background-size: 100px 100px;
 }
 #tu4:hover{
     transform:rotateY(-360deg) scale(2) translateX(-210px) translateY(70px)
@@ -116,6 +127,8 @@
     width: 100%;
     height: 100px;
     transition: all 1s;
+    background:url(https://enterdawn.top/w1/教学评价.svg);
+    background-size: 100px 100px;
 }
 #tu5:hover{
     transform: scale(2) translateX(210px) ;
@@ -130,6 +143,8 @@
     width: 100%;
     height: 100px;
     transition: all 1s;
+    background:url(https://enterdawn.top/w1/活动报名.svg);
+    background-size: 100px 100px;
 }
 #tu6:hover{
     transform: scale(2) translateX(70px);
@@ -146,6 +161,8 @@
     width: 100%;
     height: 100px;
     transition: all 1s;
+    background:url(https://enterdawn.top/w1/公用信息.svg) no-repeat ;
+    background-size: 100px 100px;
 }
 #tu7:hover{
     transform: scale(2) rotateY(360deg) translateX(-70px);
@@ -162,6 +179,8 @@
     width: 100%;
     height: 100px;
     transition: all 2s;
+    background:url(https://enterdawn.top/w1/毕业论文.svg);
+    background-size: 100px 100px;
 }
 #tu8:hover{
     transform: scale(2) translateX(-210px) rotate(360deg);
