@@ -15,6 +15,8 @@
     height: 100%;
     position: absolute;
     margin-left: 50px;
+    transition: all 2s;
+    animation: lu 2s ease-in;
 }
 #biaoge li{
     width: 100px;
@@ -42,16 +44,39 @@
     border-radius: 20px;
     width: 100%;
     height: 100px;
+    animation: t1 2s ease-in;
+    background: white;
+    transition: all 1s;
+}
+#tu1:hover{
+    transform:rotate(360deg) scale(2) translateX(210px) translateY(70px);
+    opacity: 0.7;
+}
+@keyframes t1{
+    0%,100%{
+    }
+    50%{
+        transform: scale(1.3);
+        opacity: 0.7;
+    }
 }
 #zi1{
     width: 100%;
     height: 21px;
+    transition: all 1s;
+}
+#zi1:hover{
+    transform:  translateX(-360px) translateY(70px) scale(2);
 }
 #tu2{
     border: black 2px solid;
     border-radius: 20px;
     width: 100%;
     height: 100px;
+    transition: all 1s;
+}
+#tu2:hover{
+    transform: rotate(-360deg) scale(2) translateX(70px) translateY(70px);
 }
 #zi2{
     width: 100%;
@@ -62,6 +87,10 @@
     border-radius: 20px;
     width: 100%;
     height: 100px;
+    transition: all 1s;
+}
+#tu3:hover{
+    transform: rotateX(360deg) scale(2) translateX(-70px) translateY(70px);
 }
 #zi3{
     width: 100%;
@@ -72,6 +101,10 @@
     border-radius: 20px;
     width: 100%;
     height: 100px;
+    transition: all 1s;
+}
+#tu4:hover{
+    transform:rotateY(-360deg) scale(2) translateX(-210px) translateY(70px)
 }
 #zi4{
     width: 100%;
@@ -82,6 +115,10 @@
     border-radius: 20px;
     width: 100%;
     height: 100px;
+    transition: all 1s;
+}
+#tu5:hover{
+    transform: scale(2) translateX(210px) ;
 }
 #zi5{
     width: 100%;
@@ -92,6 +129,12 @@
     border-radius: 20px;
     width: 100%;
     height: 100px;
+    transition: all 1s;
+}
+#tu6:hover{
+    transform: scale(2) translateX(70px);
+    opacity: 0.7;
+    border: yellow solid 5px;
 }
 #zi6{
     width: 100%;
@@ -102,6 +145,12 @@
     border-radius: 20px;
     width: 100%;
     height: 100px;
+    transition: all 1s;
+}
+#tu7:hover{
+    transform: scale(2) rotateY(360deg) translateX(-70px);
+    opacity: 0.1;
+    border: red solid 2px;
 }
 #zi7{
     width: 100%;
@@ -112,6 +161,10 @@
     border-radius: 20px;
     width: 100%;
     height: 100px;
+    transition: all 2s;
+}
+#tu8:hover{
+    transform: scale(2) translateX(-210px) rotate(360deg);
 }
 #zi8{
     width: 100%;
