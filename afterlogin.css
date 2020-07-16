@@ -1,0 +1,120 @@
+@charset "utf-8"
+*{
+    padding: 0;
+    margin: 0;
+}
+#biaoge{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top:150px;
+    background: red;
+}
+ul{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-left: 50px;
+}
+#biaoge li{
+    width: 100px;
+    height: 120px;
+    float: left;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 10px;
+    list-style: none;
+}
+#biaoge a{
+    position: absolute;
+    text-decoration: none;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+#biaoge span{
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+#tu1{
+    border: black 2px solid;
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+}
+#zi1{
+    width: 100%;
+    height: 21px;
+}
+#tu2{
+    border: black 2px solid;
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+}
+#zi2{
+    width: 100%;
+    height: 21px;
+}
+#tu3{
+    border: black 2px solid;
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+}
+#zi3{
+    width: 100%;
+    height: 21px;
+}
+#tu4{
+    border: black 2px solid;
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+}
+#zi4{
+    width: 100%;
+    height: 21px;
+}
+#tu5{
+    border: black 2px solid;
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+}
+#zi5{
+    width: 100%;
+    height: 21px;
+}
+#tu6{
+    border: black 2px solid;
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+}
+#zi6{
+    width: 100%;
+    height: 21px;
+}
+#tu7{
+    border: black 2px solid;
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+}
+#zi7{
+    width: 100%;
+    height: 21px;
+}
+#tu8{
+    border: black 2px solid;
+    border-radius: 20px;
+    width: 100%;
+    height: 100px;
+}
+#zi8{
+    width: 100%;
+    height: 21px;
+}
+
